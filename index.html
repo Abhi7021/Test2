@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Abhishek's APP</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="header">
+  	<h2>Register</h2>
+  </div>
+	
+  <form method="post" action="server.php">
+  	<div class="input-group">
+  	  <label>Roll No:</label>
+  	  <input type="number" name="RollNo" required="true">
+  	</div>
+  	<div class="input-group">
+  	  <label>First Name:</label>
+  	  <input type="text" name="FirstName" required="true">
+  	</div>
+  	<div class="input-group">
+  	  <label>Last Name:</label>
+  	  <input type="Text" name="LastName" required="true">
+  	</div>
+  	<div class="input-group">
+  	  <label>GPA:</label>
+  	  <input type="float" name="GPA" required="true">
+  	</div>
+    <div class="input-group">
+  	  <label>Major:</label>
+  	  <input type="text" name="Major" required="true">
+  	</div>
+  	<div class="input-group">
+  	  <button type="submit" class="btn" name="reg_user">Register</button>
+  	</div>
+  	<p>
+  		Already Registered? <a href="getroll.html">Search</a>
+  	</p>
+  </form>
+</body>
+</html>
